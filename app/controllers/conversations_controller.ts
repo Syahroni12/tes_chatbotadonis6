@@ -73,7 +73,7 @@ export default class ConversationsController {
         pertanyaan: question,
         session_id: conversation.sessionId,
         bot_message: botMessage,
-        api_response: botRes.data,
+        // api_response: botRes.data,
       })
     } catch (error) {
       console.error('Error details:', {
